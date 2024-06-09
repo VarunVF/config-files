@@ -24,5 +24,7 @@ cd ${XDG_DATA_HOME:-$HOME/.local/share}/nvim/plugged/coc.nvim
 yarn install
 yarn build
 
+cd ~/.config/nvim/
+
 echo Install plugins in Neovim using :PlugInstall.
 echo You must install the language servers for each language you want to use with COC.
