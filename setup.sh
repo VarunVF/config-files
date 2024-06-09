@@ -19,8 +19,8 @@ sudo apt install exuberant-ctags
 
 # setup COC Autocompletion
 sudo apt install nodejs npm
-npm install -g yarn
-cd ~/.config/nvim/plugged/coc.nvim/
+sudo npm install -g yarn
+cd ${XDG_DATA_HOME:-$HOME/.local/share}/nvim/plugged/coc.nvim
 yarn install
 yarn build
 
