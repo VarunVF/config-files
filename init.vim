@@ -8,6 +8,7 @@ set smarttab
 set softtabstop=4
 set mouse=a
 
+set encoding=UTF-8
 
 " vim-plug plugins
 call plug#begin()
